@@ -1,0 +1,1 @@
+function e(e){let t=e.currentTarget,n=t.getBoundingClientRect();t.style.setProperty(`--mx`,`${(e.clientX-n.left)/n.width*100}%`),t.style.setProperty(`--my`,`${(e.clientY-n.top)/n.height*100}%`)}function t(e){e.currentTarget.style.removeProperty(`--mx`),e.currentTarget.style.removeProperty(`--my`)}export{t as n,e as t};
